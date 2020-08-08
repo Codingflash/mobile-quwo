@@ -1,0 +1,467 @@
+/* logo开始 */
+.logo{
+    width: 100%;
+    height: 0.62rem;
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 100;
+    background: url("http://quwolvyou.com/templates/default/img/top1.jpg")no-repeat;
+}
+.search{
+    width: 0.3rem;
+    height: 0.355rem;
+    position: absolute;
+    left: 2%;
+    top: 0.1rem;
+  
+}
+.search img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: 3;
+}
+.sousuo{
+    height: 0.35rem;
+    position: absolute;
+    left: 0;
+    top:0;
+    
+    z-index: 7;
+}
+.text{
+    width:6.2rem;
+    height: 0.35rem;
+    border: none;
+    background: #fff;
+    float: left;
+    color: #333333;
+    padding: 0 0 0 12%;
+    float: left;
+}
+.submit{
+    position: absolute;
+    top: 0;
+    left: 6.2rem;
+    z-index: 111;
+    width: 1.1rem;
+    height: 100%;
+    line-height: 0.35rem;
+    background: #022350;
+    border: none;
+    color: #fff;
+}
+.logo-box{
+    width:2.15rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 38%;
+}
+.logo-box img{
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+     width: 0.5rem;
+     height: 0.5rem;
+     float: right;
+     position: relative;
+}
+.menu span{
+    z-index: 13;
+    transition: transform 1s ease;
+}
+.menu span:nth-child(1){
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 0.25rem;
+    height: 0.03rem;
+    background: #fff;
+}
+.menu span:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 0.25rem;
+    height: 0.03rem;
+    background: #fff;
+}
+.menu span:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    width: 0.25rem;
+    height: 0.03rem;
+    background: #fff;
+}
+.caidan{
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(25, 125, 138);
+}
+.caidan div{
+    font-size: 0.3rem;
+    color: #fff;
+    margin-top: 0.3rem;
+    margin-left: 3.2rem;
+}
+.caidan div a{
+    text-decoration: none;
+}
+
+
+/* logo结束 */
+
+/* 轮播图大小 */
+.swiper-container {
+    width: 100%;
+    height:2.25rem;
+    z-index: 222;
+    margin-top:0.62rem;
+}  
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+/* 晋都开始 */
+.jindu{
+    width:100%;
+    height: 3.51rem;
+    margin: 0 0.29rem 0 0.29rem;
+    padding: 0.08rem 0 0.15rem;
+}
+.jindu-list{
+   width: 15.3%;
+   height: 1.3rem;
+   margin: 2% 9%;
+   float: left;
+}
+.jindu-list a{
+    color: #333;
+    position: relative;
+}
+.jindu-list-img1{
+    width: 100%;
+    display: block;
+}
+.jindu-list-img2{
+    width: 100%;
+    display: none;
+}
+.jindu a span{
+    width: 0.66rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 1.05remrem;
+    padding-left: 0.17rem;
+    font-size: 0.14rem;
+}
+/* 晋都结束 */
+.zhuti{
+    height: 4.4rem;
+    width: 6.71rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.hd{
+    width: 6.71rem;
+    height: 0.26rem;
+    font-size: 0.19rem;
+}
+.tubiao1{
+    width: 0.18rem;
+    height: 0.22rem;
+    float: left;
+    background: url("http://quwolvyou.com/templates/default/img/tubiao1.jpg") no-repeat;
+    background-size: contain;
+    margin-top: 0.04rem;
+}
+.tubiao1 img{
+    width: 100%;
+    height: 100%;
+}
+.zhuti-huodong{
+    margin-left: -3rem;
+}
+.zhuti-huodong li{
+    float: left;
+    position: relative;
+    font-size: 0.19rem;
+    padding: 0 0.1rem;
+    border-right: solid 3px #a7a7a7;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.zhuti-huodong li span{
+    color: #333;
+    cursor: pointer;
+}
+
+
+.bd{
+    width: 6.71rem;
+    height: 3.09rem;
+    margin-left: -0.7rem;
+    margin-top: -0.78rem;
+}
+.xinwen{
+    width: 6.71rem;
+    height: 3.09rem;
+}
+.xinwen li{
+    width: 6.71rem;
+    height: 0.67rem;
+    display: list-item;
+    margin-top: 0.04rem;
+    text-align: -webkit-match-parent;
+}
+.date{
+    float: left;
+    background: url("http://quwolvyou.com/templates/default/img/jin1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 6%;
+    height: 0.5rem;
+    color: #fff;
+    text-align: center;
+}
+.date-top{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 1px #fff;
+    font-size: 0.16rem;
+    line-height: 0.27rem;
+}
+.date-bottom{
+    font-size: 0.12rem;
+    height: 0.23rem;
+}
+.neirong{
+    float: right;
+    width: 92%;
+}
+.neirong-title{
+    color: #191919;
+    font-size: 0.16rem;
+    font-weight: 600;
+}
+.neirong-title a{
+    color: #191919;
+}
+.neirong-jianjie{
+    color: #868585;
+    font-size: 0.12rem;
+    line-height: 0.32rem;
+    overflow: hidden;
+    height: 0.32rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 主体部分结束 */
+/* 推荐开始 */
+.tuijian{
+    width: 6.98rem;
+    height: 4.09rem;
+    margin:auto;
+}
+.tuijian-title{
+    width: 6.71rem;
+    height: 0.68rem;
+    margin: auto;
+}
+.title-tubiao{
+    width: 0.18rem;
+    height: 0.18rem;
+    background: url("http://quwolvyou.com/templates/default/img/tubiao1.jpg") no-repeat;
+    background-size: contain;
+    float: left;
+}
+.title-wenzi{
+    font-size: 0.16rem;
+}
+.tj-list{
+    width: 2.22rem;
+    height: 1.81rem;
+    float: left;
+    margin-right: 2.1%;
+}
+.tj-list a{
+    text-decoration: none;
+    color: #333;
+}
+.tj-list-top{
+    width: 2.17rem;
+    height: 1.42rem;
+    overflow: hidden;
+    margin: auto;
+}
+.tj-list-top img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+}
+.tj-list-top:hover img{
+    transform: scale(1.2);
+}
+.tj-list-bottom{
+    font-size: 0.16rem;
+    background: white;
+}
+
+/* 推荐结束 */
+/* 视频开始 */
+.sp{
+    width: 7.03rem;
+    height: 4.4rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(194, 191, 191);
+    border-top: 0;
+    background: white;
+}
+.sp-top{
+    width: 6.94rem;
+    height: 0.33rem;
+    border-top: 2px solid rgb(43, 13, 13);
+    border-bottom: 1px solid rgb(194, 191, 191);
+    padding-left: 0.09rem;
+    padding-top: 0.08rem;
+}
+.sp-top img{
+    width: 0.06rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.04rem;
+}
+.sp-top span a{
+    font-size: 0.18rem;
+    color: #333;
+    float: left;
+    margin-left: 0.04rem;
+}
+.sp-bottom{
+    width: 5.85rem;
+    height: 3.18rem;
+    margin: auto;
+    font-size: 0.14rem;
+}
+
+
+.sp-bottom a{
+    width: 5.89rem;
+    height: 0.1rem;
+    line-height: 0.3rem;
+    margin-bottom: 0.3rem;
+    color:#333;
+    font-size: 0.14rem;
+    text-decoration: none;
+    display: block;
+    margin-left: -0.35rem;
+}
+.sp-bottom a:hover{
+    color:rgb(163, 155, 77);
+}
+
+/* 视频结束 */
+/* 服务开始 */
+.service{
+    width: 7.03rem;
+    height: 4.4rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(194, 191, 191);
+    border-top: 0;
+    background: white;
+}
+.service-top{
+    width: 6.94rem;
+    height: 0.33rem;
+    border-top: 2px solid rgb(43, 13, 13);
+    border-bottom: 1px solid rgb(194, 191, 191);
+    padding-left: 0.09rem;
+    padding-top: 0.08rem;
+}
+.service-top img{
+    width: 0.06rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.04rem;
+}
+.service-top span a{
+    font-size: 0.18rem;
+    color: #333;
+    float: left;
+    margin-left: 0.04rem;
+    text-decoration: none;
+}
+.service-bottom{
+    width: 6.94rem;
+    height: 4.4rem;
+    margin: auto;
+}
+.service-list{
+    width: 1.76rem;
+    height: 0.67rem;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    float: left;
+}
+.service-list a img{
+    width: 1.78rem;
+    height: 0.67rem;
+    border: 1px solid rgb(233, 230, 230);
+}
+
+/* 服务结束 */
+
+
+
+
+
+
+
+/*底部 */
+.foot{
+    display: block;
+    height: 0.6rem;
+    width: 100%;
+    background: #1e1e20;
+    padding: 1% 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 11112;
+}
+.foot-one{
+    width: 25%;
+    height: 0.62rem;
+    float: left;
+    text-align: center;
+    font-size: 0.18rem;
+    margin-top: 0.01rem;
+    cursor: pointer;
+}
+.foot-one-tu{
+    height: 0.35rem;
+    line-height: 0.42rem;
+    margin-top: 0.05rem;
+}
+.foot-one-tu img{
+    width: 16%;
+    vertical-align: middle;
+}
+.foot-one-span{
+    color: #fff;
+    font-size: 0.14rem;
+}

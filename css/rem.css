@@ -1,0 +1,13 @@
+body,h1,h2,h3,h4,h5,h6{
+    padding: 0;margin: 0;
+    list-style: none;
+    background: rgb(240, 246, 242);
+
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 13.333333vw;
+}
