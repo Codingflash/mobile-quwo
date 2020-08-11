@@ -40,12 +40,17 @@ $(function () {
         $(".jindu-list-img2").css("display", "none");
     });
 
-    $(".zhuti-huodong li span").hammer().bind("tap", function () {
+    $(".zhuti-huodong li a").hammer().bind("tap", function () {
         $(".xinwen").css("display", "none");
-        var index = $(this).index(".zhuti-huodong li span");
-        
-        $(".xinwen:child(" + index + ")").css("display", "block");
-        $(".zhuti-huodong li span").css("color", "#333");
+        var index = $(this).index(".zhuti-huodong li:nth-child(1) a");
+        var index1 = $(this).index(".zhuti-huodong li:nth-child(2) a");
+        var index2 = $(this).index(".zhuti-huodong li:nth-child(3) a");
+        var index3 = $(this).index(".zhuti-huodong li:last-child a");
+        $(".bd .xinwen:nth-child(" + (index + 1) + ")").css("display", "block");
+        $(".bd .xinwen:nth-child(" + (index1 + 3) + ")").css("display", "block");
+        $(".bd .xinwen:nth-child(" + (index1 + 4) + ")").css("display", "block");
+        $(".bd .xinwen:nth-child(" + (index3+1) + ")").css("display", "block");
+        $(".zhuti-huodong li a").css("color", "#333");
         $(this).css("color", "rgb(219, 206, 90)");
     })
     

@@ -204,9 +204,10 @@
     transition: all 0.3s ease;
 
 }
-.zhuti-huodong li span{
+.zhuti-huodong li a{
     color: #333;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -259,6 +260,7 @@
 }
 .neirong-title a{
     color: #191919;
+    text-decoration: none;
 }
 .neirong-jianjie{
     color: #868585;
